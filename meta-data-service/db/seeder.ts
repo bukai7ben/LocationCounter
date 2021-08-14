@@ -4,6 +4,7 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 
+
 const user: String | undefined = process.env.DB_USER;
 const password: String | undefined = process.env.DB_PASS;
 
