@@ -23,7 +23,7 @@ async function createData() {
     console.log('+++++ creating buildings and locations');
     for (let i = 1; i < 11; i++) {
       await client.query(
-        `INSERT INTO building (name, number_of_floors, capacity) VALUES ('Seed Table ${i}', ${i}, ${i * 100
+        `INSERT INTO building (name, number_of_floors,  capacity) VALUES ('Seed Table ${i}', ${i}, ${i * 100
         });`
       );
       for (let j = 1; j < 6; j++) {
